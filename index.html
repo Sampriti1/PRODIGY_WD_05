@@ -61,7 +61,7 @@
             document.querySelector(".humidity").innerHTML = data.main.humidity + "%";
             document.querySelector(".wind").innerHTML = data.wind.speed + "km/h";
     
-            // Set weather icon based on weather condition
+            
             const weatherCondition = data.weather[0].main;
             setWeatherIcon(weatherCondition);
     
